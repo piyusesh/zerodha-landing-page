@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -66,8 +68,82 @@ nav {
     border: 1px solid rgba(0,0,0,0);
     border-radius: 3px;
     margin: 20px 0px 0px;
+    cursor: pointer;
 }
 
 .signup:hover {
     background-color: #222222;
+}
+
+.largest-broker {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.largest-broker > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #424242;
+    height: auto;
+    max-width: 500px;
+}
+
+.largest-broker > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #424242;
+    font-weight: 550;
+}
+
+.largest-broker > div p {
+    line-height: 1.6;
+}
+
+.largest-broker div >ul > li {
+    padding: 10px 10px;
+}
+
+.ecosystem-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.ecosystem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.ecosystem > h2 {
+    font-size: 32px;
+    color: #424242;
+    font-weight: 550;
+    margin-bottom: 0;
+}
+
+.ecosystem > p {
+    color: #424242;
+    font-size: 20px;
+}
+
+.ecosystem > img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
 }
